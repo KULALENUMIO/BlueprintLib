@@ -219,9 +219,14 @@ local Texts = {
 		selectedAll = "已选择 %d 个"
 	}
 }
--- a key missing in a translation falls back to English instead of breaking string.format
+-- A key missing in a translation falls back to English instead of breaking string.format.
+-- (Copied in, not via a metatable: the game's Lua sandbox has no setmetatable.)
 for lang, tbl in pairs( Texts ) do
-	if lang ~= "English" then setmetatable( tbl, { __index = Texts.English } ) end
+	if lang ~= "English" then
+		for k, v in pairs( Texts.English ) do
+			if tbl[k] == nil then tbl[k] = v end
+		end
+	end
 end
 
 -- Unknown sound names must never break the tool.
@@ -663,12 +668,15 @@ end
 
 -- sm.gui.setInteractionText accepts at most 5 arguments ("Expected at most 5 arguments (got 11)"
 -- spammed the game log every frame). Extra key hints must be concatenated into one string.
-local function interactionText( ... )
-	local n = select( "#", ... )
-	if n > 5 then
-		error( "interactionText: at most 5 arguments, got " .. n, 2 )
-	end
-	sm.gui.setInteractionText( ... )
+-- Only the given (non-nil) arguments are passed on; anything past the 5th is impossible by signature.
+-- (No select("#", ...) - keep to the functions the game's Lua sandbox is known to have.)
+local function interactionText( a, b, c, d, e )
+	local f = sm.gui.setInteractionText
+	if e ~= nil then f( a, b, c, d, e )
+	elseif d ~= nil then f( a, b, c, d )
+	elseif c ~= nil then f( a, b, c )
+	elseif b ~= nil then f( a, b )
+	else f( a or "" ) end
 end
 
 local function key( action )
