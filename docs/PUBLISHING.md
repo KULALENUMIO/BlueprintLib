@@ -52,6 +52,7 @@
 1. `VERSION` を上げ、変更点を Release ノートに書きます
 2. `prepare-upload` → Mod Tool で同じアイテムを更新 → `restore`
 3. `release.py zip` → GitHub の Release に添付します
+4. Workshop のページの説明文が `description.json` の短い文に戻っていたら、`docs\workshop_description.txt` を貼り直します（Mod Tool がアップロードのたびに上書きすることがあります）
 
 利用者の `library.json` は、Workshop の更新で消えても、マネージャーの起動時に `%APPDATA%\BlueprintLib` から復元されます。
 
