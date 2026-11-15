@@ -1,0 +1,7 @@
+{
+	"description" : "Lift replacement that organizes your blueprints: folders, tags, favorites, missing-mod check, lift-like placement. Creative only. The included Blueprint Lib Manager (Python 3.10+) builds the blueprint list.",
+	"localId" : "cbd434bf-4b67-4bc1-b367-f35c1618b74a",
+	"name" : "Blueprint Lib",
+	"type" : "Blocks and Parts",
+	"version" : 0
+}

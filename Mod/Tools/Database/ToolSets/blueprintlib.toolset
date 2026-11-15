@@ -1,0 +1,14 @@
+{
+	"toolList" : [
+		{
+			"name" : "BlueprintLib",
+			"previewRenderable" : "$GAME_DATA/Character/Char_Tools/char_lift_preview.rend",
+			"script" : {
+				"class" : "BlueprintLib",
+				"data" : {},
+				"file" : "$CONTENT_DATA/Scripts/BlueprintLib.lua"
+			},
+			"uuid" : "2cc0f9ee-d5bb-4ec2-b7c1-9f9dd8abec67"
+		}
+	]
+}

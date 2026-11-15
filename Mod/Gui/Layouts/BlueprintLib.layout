@@ -1,0 +1,1516 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+	<Widget type="Widget" skin="BackgroundLiftImport" name="BackPanel" position_real="0 0 0.85469 0.74167">
+		<Widget type="TextBox" skin="TextBox" name="Title" position_real="0.03 0.045 0.94 0.06">
+			<Property key="Caption" value="BLUEPRINT LIB" />
+			<Property key="FontName" value="SM_HeaderLarge_Wide" />
+			<Property key="TextAlign" value="Center" />
+			<Property key="NeedMouse" value="false" />
+			<Property key="NeedKey" value="false" />
+		</Widget>
+		<Widget type="Widget" skin="BackgroundPanel" name="LeftPanel" position_real="0.025 0.13 0.18 0.83">
+			<Widget type="Button" skin="ToggleButton" name="TabFolders" position_real="0.05 0.015 0.44 0.05">
+				<Property key="Caption" value="Folders" />
+				<Property key="FontName" value="SM_ButtonSmall" />
+				<Property key="TextAlign" value="Center" />
+			</Widget>
+			<Widget type="Button" skin="ToggleButton" name="TabTags" position_real="0.51 0.015 0.44 0.05">
+				<Property key="Caption" value="Tags" />
+				<Property key="FontName" value="SM_ButtonSmall" />
+				<Property key="TextAlign" value="Center" />
+			</Widget>
+			<Widget type="TextBox" skin="TextBox" name="DropHint" position_real="0.05 0.07 0.9 0.035">
+				<Property key="Caption" value="" />
+				<Property key="FontName" value="SM_TextTiny" />
+				<Property key="TextAlign" value="Center" />
+				<Property key="NeedMouse" value="false" />
+				<Property key="NeedKey" value="false" />
+				<Property key="TextColour" value="#F4C846" />
+			</Widget>
+			<Widget type="Button" skin="ToggleButton" name="Folder0" position_real="0.05 0.11 0.9 0.05">
+				<Property key="Caption" value="Folder 0" />
+				<Property key="FontName" value="SM_ButtonSmall" />
+				<Property key="TextAlign" value="Left VCenter" />
+			</Widget>
+			<Widget type="Button" skin="ToggleButton" name="Folder1" position_real="0.05 0.166 0.9 0.05">
+				<Property key="Caption" value="Folder 1" />
+				<Property key="FontName" value="SM_ButtonSmall" />
+				<Property key="TextAlign" value="Left VCenter" />
+			</Widget>
+			<Widget type="Button" skin="ToggleButton" name="Folder2" position_real="0.05 0.222 0.9 0.05">
+				<Property key="Caption" value="Folder 2" />
+				<Property key="FontName" value="SM_ButtonSmall" />
+				<Property key="TextAlign" value="Left VCenter" />
+			</Widget>
+			<Widget type="Button" skin="ToggleButton" name="Folder3" position_real="0.05 0.278 0.9 0.05">
+				<Property key="Caption" value="Folder 3" />
+				<Property key="FontName" value="SM_ButtonSmall" />
+				<Property key="TextAlign" value="Left VCenter" />
+			</Widget>
+			<Widget type="Button" skin="ToggleButton" name="Folder4" position_real="0.05 0.334 0.9 0.05">
+				<Property key="Caption" value="Folder 4" />
+				<Property key="FontName" value="SM_ButtonSmall" />
+				<Property key="TextAlign" value="Left VCenter" />
+			</Widget>
+			<Widget type="Button" skin="ToggleButton" name="Folder5" position_real="0.05 0.39 0.9 0.05">
+				<Property key="Caption" value="Folder 5" />
+				<Property key="FontName" value="SM_ButtonSmall" />
+				<Property key="TextAlign" value="Left VCenter" />
+			</Widget>
+			<Widget type="Button" skin="ToggleButton" name="Folder6" position_real="0.05 0.446 0.9 0.05">
+				<Property key="Caption" value="Folder 6" />
+				<Property key="FontName" value="SM_ButtonSmall" />
+				<Property key="TextAlign" value="Left VCenter" />
+			</Widget>
+			<Widget type="Button" skin="ToggleButton" name="Folder7" position_real="0.05 0.502 0.9 0.05">
+				<Property key="Caption" value="Folder 7" />
+				<Property key="FontName" value="SM_ButtonSmall" />
+				<Property key="TextAlign" value="Left VCenter" />
+			</Widget>
+			<Widget type="Button" skin="ToggleButton" name="Folder8" position_real="0.05 0.558 0.9 0.05">
+				<Property key="Caption" value="Folder 8" />
+				<Property key="FontName" value="SM_ButtonSmall" />
+				<Property key="TextAlign" value="Left VCenter" />
+			</Widget>
+			<Widget type="Button" skin="ToggleButton" name="Folder9" position_real="0.05 0.614 0.9 0.05">
+				<Property key="Caption" value="Folder 9" />
+				<Property key="FontName" value="SM_ButtonSmall" />
+				<Property key="TextAlign" value="Left VCenter" />
+			</Widget>
+			<Widget type="Button" skin="ToggleButton" name="Folder10" position_real="0.05 0.67 0.9 0.05">
+				<Property key="Caption" value="Folder 10" />
+				<Property key="FontName" value="SM_ButtonSmall" />
+				<Property key="TextAlign" value="Left VCenter" />
+			</Widget>
+			<Widget type="Button" skin="ToggleButton" name="Folder11" position_real="0.05 0.726 0.9 0.05">
+				<Property key="Caption" value="Folder 11" />
+				<Property key="FontName" value="SM_ButtonSmall" />
+				<Property key="TextAlign" value="Left VCenter" />
+			</Widget>
+			<Widget type="Button" skin="DressbotArrowLeft" name="FolderPrev" position_real="0.05 0.788 0.14 0.045">
+				<Property key="NeedMouse" value="true" />
+			</Widget>
+			<Widget type="TextBox" skin="TextBox" name="FolderPage" position_real="0.2 0.788 0.6 0.045">
+				<Property key="Caption" value="1/1" />
+				<Property key="FontName" value="SM_TextTiny" />
+				<Property key="TextAlign" value="Center" />
+				<Property key="NeedMouse" value="false" />
+				<Property key="NeedKey" value="false" />
+			</Widget>
+			<Widget type="Button" skin="DressbotArrowRight" name="FolderNext" position_real="0.81 0.788 0.14 0.045">
+				<Property key="NeedMouse" value="true" />
+			</Widget>
+			<Widget type="Widget" skin="SearchBarBackground" name="FolderInputBg" position_real="0.05 0.85 0.9 0.05">
+				<Widget type="EditBox" skin="EditBoxEmpty" name="FolderInput" position_real="0.03 0 0.94 1">
+					<Property key="FontName" value="SM_SearchText" />
+					<Property key="TextAlign" value="Left VCenter" />
+					<Property key="ReadOnly" value="false" />
+					<Property key="Static" value="false" />
+				</Widget>
+			</Widget>
+			<Widget type="Button" skin="SettingsButton" name="CreateFolder" position_real="0.05 0.91 0.29 0.05">
+				<Property key="Caption" value="Create" />
+				<Property key="FontName" value="SM_ButtonSmall" />
+				<Property key="TextAlign" value="Center" />
+			</Widget>
+			<Widget type="Button" skin="SettingsButton" name="RenameFolder" position_real="0.355 0.91 0.29 0.05">
+				<Property key="Caption" value="Rename" />
+				<Property key="FontName" value="SM_ButtonSmall" />
+				<Property key="TextAlign" value="Center" />
+			</Widget>
+			<Widget type="Button" skin="SettingsButton" name="DeleteFolder" position_real="0.66 0.91 0.29 0.05">
+				<Property key="Caption" value="Delete" />
+				<Property key="FontName" value="SM_ButtonSmall" />
+				<Property key="TextAlign" value="Center" />
+			</Widget>
+		</Widget>
+		<Widget type="Widget" skin="BackgroundPanel" name="CenterPanel" position_real="0.215 0.13 0.47 0.83">
+			<Widget type="Widget" skin="SearchBarBackground" name="SearchBg" position_real="0.03 0.02 0.94 0.055">
+				<Widget type="EditBox" skin="EditBoxEmpty" name="Search" position_real="0.03 0 0.94 1">
+					<Property key="FontName" value="SM_SearchText" />
+					<Property key="TextAlign" value="Left VCenter" />
+					<Property key="ReadOnly" value="false" />
+					<Property key="Static" value="false" />
+				</Widget>
+			</Widget>
+			<Widget type="Button" skin="ToggleButton" name="ViewL" position_real="0.03 0.085 0.08 0.048">
+				<Property key="Caption" value="L" />
+				<Property key="FontName" value="SM_ButtonSmall" />
+				<Property key="TextAlign" value="Center" />
+			</Widget>
+			<Widget type="Button" skin="ToggleButton" name="ViewG" position_real="0.115 0.085 0.08 0.048">
+				<Property key="Caption" value="M" />
+				<Property key="FontName" value="SM_ButtonSmall" />
+				<Property key="TextAlign" value="Center" />
+			</Widget>
+			<Widget type="Button" skin="ToggleButton" name="ViewR" position_real="0.2 0.085 0.08 0.048">
+				<Property key="Caption" value="List" />
+				<Property key="FontName" value="SM_ButtonSmall" />
+				<Property key="TextAlign" value="Center" />
+			</Widget>
+			<Widget type="Button" skin="SettingsButton" name="Sort" position_real="0.29 0.085 0.19 0.048">
+				<Property key="Caption" value="Sort" />
+				<Property key="FontName" value="SM_ButtonSmall" />
+				<Property key="TextAlign" value="Center" />
+			</Widget>
+			<Widget type="Button" skin="ToggleButton" name="SelectMode" position_real="0.49 0.085 0.17 0.048">
+				<Property key="Caption" value="Multi" />
+				<Property key="FontName" value="SM_ButtonSmall" />
+				<Property key="TextAlign" value="Center" />
+			</Widget>
+			<Widget type="Button" skin="SettingsButton" name="SelectAll" position_real="0.67 0.085 0.145 0.048">
+				<Property key="Caption" value="All" />
+				<Property key="FontName" value="SM_ButtonSmall" />
+				<Property key="TextAlign" value="Center" />
+			</Widget>
+			<Widget type="Button" skin="SettingsButton" name="SelectNone" position_real="0.825 0.085 0.145 0.048">
+				<Property key="Caption" value="None" />
+				<Property key="FontName" value="SM_ButtonSmall" />
+				<Property key="TextAlign" value="Center" />
+			</Widget>
+			<Widget type="Widget" skin="PanelEmpty" name="ViewLPanel" position_real="0.03 0.145 0.94 0.74">
+				<Widget type="Button" skin="ContainerItemBackground" name="LItem0" position_real="0.004 0.005 0.242 0.32333">
+					<Property key="NeedKey" value="false" />
+					<Widget type="ImageBox" skin="ImageBox" name="LIcon0" position_real="0.1 0.05 0.8 0.68">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="TextBox" skin="TextBox" name="LName0" position_real="0.03 0.74 0.94 0.24">
+						<Property key="Caption" value="" />
+						<Property key="FontName" value="SM_TextTiny" />
+						<Property key="TextAlign" value="Center" />
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="LCheck0" position_real="0.04 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/check.png" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="LWarn0" position_real="0.72 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/warn.png" />
+					</Widget>
+				</Widget>
+				<Widget type="Button" skin="ContainerItemBackground" name="LItem1" position_real="0.254 0.005 0.242 0.32333">
+					<Property key="NeedKey" value="false" />
+					<Widget type="ImageBox" skin="ImageBox" name="LIcon1" position_real="0.1 0.05 0.8 0.68">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="TextBox" skin="TextBox" name="LName1" position_real="0.03 0.74 0.94 0.24">
+						<Property key="Caption" value="" />
+						<Property key="FontName" value="SM_TextTiny" />
+						<Property key="TextAlign" value="Center" />
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="LCheck1" position_real="0.04 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/check.png" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="LWarn1" position_real="0.72 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/warn.png" />
+					</Widget>
+				</Widget>
+				<Widget type="Button" skin="ContainerItemBackground" name="LItem2" position_real="0.504 0.005 0.242 0.32333">
+					<Property key="NeedKey" value="false" />
+					<Widget type="ImageBox" skin="ImageBox" name="LIcon2" position_real="0.1 0.05 0.8 0.68">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="TextBox" skin="TextBox" name="LName2" position_real="0.03 0.74 0.94 0.24">
+						<Property key="Caption" value="" />
+						<Property key="FontName" value="SM_TextTiny" />
+						<Property key="TextAlign" value="Center" />
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="LCheck2" position_real="0.04 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/check.png" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="LWarn2" position_real="0.72 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/warn.png" />
+					</Widget>
+				</Widget>
+				<Widget type="Button" skin="ContainerItemBackground" name="LItem3" position_real="0.754 0.005 0.242 0.32333">
+					<Property key="NeedKey" value="false" />
+					<Widget type="ImageBox" skin="ImageBox" name="LIcon3" position_real="0.1 0.05 0.8 0.68">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="TextBox" skin="TextBox" name="LName3" position_real="0.03 0.74 0.94 0.24">
+						<Property key="Caption" value="" />
+						<Property key="FontName" value="SM_TextTiny" />
+						<Property key="TextAlign" value="Center" />
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="LCheck3" position_real="0.04 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/check.png" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="LWarn3" position_real="0.72 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/warn.png" />
+					</Widget>
+				</Widget>
+				<Widget type="Button" skin="ContainerItemBackground" name="LItem4" position_real="0.004 0.33833 0.242 0.32333">
+					<Property key="NeedKey" value="false" />
+					<Widget type="ImageBox" skin="ImageBox" name="LIcon4" position_real="0.1 0.05 0.8 0.68">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="TextBox" skin="TextBox" name="LName4" position_real="0.03 0.74 0.94 0.24">
+						<Property key="Caption" value="" />
+						<Property key="FontName" value="SM_TextTiny" />
+						<Property key="TextAlign" value="Center" />
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="LCheck4" position_real="0.04 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/check.png" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="LWarn4" position_real="0.72 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/warn.png" />
+					</Widget>
+				</Widget>
+				<Widget type="Button" skin="ContainerItemBackground" name="LItem5" position_real="0.254 0.33833 0.242 0.32333">
+					<Property key="NeedKey" value="false" />
+					<Widget type="ImageBox" skin="ImageBox" name="LIcon5" position_real="0.1 0.05 0.8 0.68">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="TextBox" skin="TextBox" name="LName5" position_real="0.03 0.74 0.94 0.24">
+						<Property key="Caption" value="" />
+						<Property key="FontName" value="SM_TextTiny" />
+						<Property key="TextAlign" value="Center" />
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="LCheck5" position_real="0.04 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/check.png" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="LWarn5" position_real="0.72 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/warn.png" />
+					</Widget>
+				</Widget>
+				<Widget type="Button" skin="ContainerItemBackground" name="LItem6" position_real="0.504 0.33833 0.242 0.32333">
+					<Property key="NeedKey" value="false" />
+					<Widget type="ImageBox" skin="ImageBox" name="LIcon6" position_real="0.1 0.05 0.8 0.68">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="TextBox" skin="TextBox" name="LName6" position_real="0.03 0.74 0.94 0.24">
+						<Property key="Caption" value="" />
+						<Property key="FontName" value="SM_TextTiny" />
+						<Property key="TextAlign" value="Center" />
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="LCheck6" position_real="0.04 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/check.png" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="LWarn6" position_real="0.72 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/warn.png" />
+					</Widget>
+				</Widget>
+				<Widget type="Button" skin="ContainerItemBackground" name="LItem7" position_real="0.754 0.33833 0.242 0.32333">
+					<Property key="NeedKey" value="false" />
+					<Widget type="ImageBox" skin="ImageBox" name="LIcon7" position_real="0.1 0.05 0.8 0.68">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="TextBox" skin="TextBox" name="LName7" position_real="0.03 0.74 0.94 0.24">
+						<Property key="Caption" value="" />
+						<Property key="FontName" value="SM_TextTiny" />
+						<Property key="TextAlign" value="Center" />
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="LCheck7" position_real="0.04 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/check.png" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="LWarn7" position_real="0.72 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/warn.png" />
+					</Widget>
+				</Widget>
+				<Widget type="Button" skin="ContainerItemBackground" name="LItem8" position_real="0.004 0.67167 0.242 0.32333">
+					<Property key="NeedKey" value="false" />
+					<Widget type="ImageBox" skin="ImageBox" name="LIcon8" position_real="0.1 0.05 0.8 0.68">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="TextBox" skin="TextBox" name="LName8" position_real="0.03 0.74 0.94 0.24">
+						<Property key="Caption" value="" />
+						<Property key="FontName" value="SM_TextTiny" />
+						<Property key="TextAlign" value="Center" />
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="LCheck8" position_real="0.04 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/check.png" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="LWarn8" position_real="0.72 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/warn.png" />
+					</Widget>
+				</Widget>
+				<Widget type="Button" skin="ContainerItemBackground" name="LItem9" position_real="0.254 0.67167 0.242 0.32333">
+					<Property key="NeedKey" value="false" />
+					<Widget type="ImageBox" skin="ImageBox" name="LIcon9" position_real="0.1 0.05 0.8 0.68">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="TextBox" skin="TextBox" name="LName9" position_real="0.03 0.74 0.94 0.24">
+						<Property key="Caption" value="" />
+						<Property key="FontName" value="SM_TextTiny" />
+						<Property key="TextAlign" value="Center" />
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="LCheck9" position_real="0.04 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/check.png" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="LWarn9" position_real="0.72 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/warn.png" />
+					</Widget>
+				</Widget>
+				<Widget type="Button" skin="ContainerItemBackground" name="LItem10" position_real="0.504 0.67167 0.242 0.32333">
+					<Property key="NeedKey" value="false" />
+					<Widget type="ImageBox" skin="ImageBox" name="LIcon10" position_real="0.1 0.05 0.8 0.68">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="TextBox" skin="TextBox" name="LName10" position_real="0.03 0.74 0.94 0.24">
+						<Property key="Caption" value="" />
+						<Property key="FontName" value="SM_TextTiny" />
+						<Property key="TextAlign" value="Center" />
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="LCheck10" position_real="0.04 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/check.png" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="LWarn10" position_real="0.72 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/warn.png" />
+					</Widget>
+				</Widget>
+				<Widget type="Button" skin="ContainerItemBackground" name="LItem11" position_real="0.754 0.67167 0.242 0.32333">
+					<Property key="NeedKey" value="false" />
+					<Widget type="ImageBox" skin="ImageBox" name="LIcon11" position_real="0.1 0.05 0.8 0.68">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="TextBox" skin="TextBox" name="LName11" position_real="0.03 0.74 0.94 0.24">
+						<Property key="Caption" value="" />
+						<Property key="FontName" value="SM_TextTiny" />
+						<Property key="TextAlign" value="Center" />
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="LCheck11" position_real="0.04 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/check.png" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="LWarn11" position_real="0.72 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/warn.png" />
+					</Widget>
+				</Widget>
+			</Widget>
+			<Widget type="Widget" skin="PanelEmpty" name="ViewGPanel" position_real="0.03 0.145 0.94 0.74">
+				<Widget type="Button" skin="ContainerItemBackground" name="GItem0" position_real="0.004 0.005 0.15867 0.24">
+					<Property key="NeedKey" value="false" />
+					<Widget type="ImageBox" skin="ImageBox" name="GIcon0" position_real="0.1 0.05 0.8 0.68">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="TextBox" skin="TextBox" name="GName0" position_real="0.03 0.74 0.94 0.24">
+						<Property key="Caption" value="" />
+						<Property key="FontName" value="SM_TextTiny" />
+						<Property key="TextAlign" value="Center" />
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="GCheck0" position_real="0.04 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/check.png" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="GWarn0" position_real="0.72 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/warn.png" />
+					</Widget>
+				</Widget>
+				<Widget type="Button" skin="ContainerItemBackground" name="GItem1" position_real="0.17067 0.005 0.15867 0.24">
+					<Property key="NeedKey" value="false" />
+					<Widget type="ImageBox" skin="ImageBox" name="GIcon1" position_real="0.1 0.05 0.8 0.68">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="TextBox" skin="TextBox" name="GName1" position_real="0.03 0.74 0.94 0.24">
+						<Property key="Caption" value="" />
+						<Property key="FontName" value="SM_TextTiny" />
+						<Property key="TextAlign" value="Center" />
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="GCheck1" position_real="0.04 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/check.png" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="GWarn1" position_real="0.72 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/warn.png" />
+					</Widget>
+				</Widget>
+				<Widget type="Button" skin="ContainerItemBackground" name="GItem2" position_real="0.33733 0.005 0.15867 0.24">
+					<Property key="NeedKey" value="false" />
+					<Widget type="ImageBox" skin="ImageBox" name="GIcon2" position_real="0.1 0.05 0.8 0.68">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="TextBox" skin="TextBox" name="GName2" position_real="0.03 0.74 0.94 0.24">
+						<Property key="Caption" value="" />
+						<Property key="FontName" value="SM_TextTiny" />
+						<Property key="TextAlign" value="Center" />
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="GCheck2" position_real="0.04 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/check.png" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="GWarn2" position_real="0.72 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/warn.png" />
+					</Widget>
+				</Widget>
+				<Widget type="Button" skin="ContainerItemBackground" name="GItem3" position_real="0.504 0.005 0.15867 0.24">
+					<Property key="NeedKey" value="false" />
+					<Widget type="ImageBox" skin="ImageBox" name="GIcon3" position_real="0.1 0.05 0.8 0.68">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="TextBox" skin="TextBox" name="GName3" position_real="0.03 0.74 0.94 0.24">
+						<Property key="Caption" value="" />
+						<Property key="FontName" value="SM_TextTiny" />
+						<Property key="TextAlign" value="Center" />
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="GCheck3" position_real="0.04 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/check.png" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="GWarn3" position_real="0.72 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/warn.png" />
+					</Widget>
+				</Widget>
+				<Widget type="Button" skin="ContainerItemBackground" name="GItem4" position_real="0.67067 0.005 0.15867 0.24">
+					<Property key="NeedKey" value="false" />
+					<Widget type="ImageBox" skin="ImageBox" name="GIcon4" position_real="0.1 0.05 0.8 0.68">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="TextBox" skin="TextBox" name="GName4" position_real="0.03 0.74 0.94 0.24">
+						<Property key="Caption" value="" />
+						<Property key="FontName" value="SM_TextTiny" />
+						<Property key="TextAlign" value="Center" />
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="GCheck4" position_real="0.04 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/check.png" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="GWarn4" position_real="0.72 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/warn.png" />
+					</Widget>
+				</Widget>
+				<Widget type="Button" skin="ContainerItemBackground" name="GItem5" position_real="0.83733 0.005 0.15867 0.24">
+					<Property key="NeedKey" value="false" />
+					<Widget type="ImageBox" skin="ImageBox" name="GIcon5" position_real="0.1 0.05 0.8 0.68">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="TextBox" skin="TextBox" name="GName5" position_real="0.03 0.74 0.94 0.24">
+						<Property key="Caption" value="" />
+						<Property key="FontName" value="SM_TextTiny" />
+						<Property key="TextAlign" value="Center" />
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="GCheck5" position_real="0.04 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/check.png" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="GWarn5" position_real="0.72 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/warn.png" />
+					</Widget>
+				</Widget>
+				<Widget type="Button" skin="ContainerItemBackground" name="GItem6" position_real="0.004 0.255 0.15867 0.24">
+					<Property key="NeedKey" value="false" />
+					<Widget type="ImageBox" skin="ImageBox" name="GIcon6" position_real="0.1 0.05 0.8 0.68">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="TextBox" skin="TextBox" name="GName6" position_real="0.03 0.74 0.94 0.24">
+						<Property key="Caption" value="" />
+						<Property key="FontName" value="SM_TextTiny" />
+						<Property key="TextAlign" value="Center" />
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="GCheck6" position_real="0.04 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/check.png" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="GWarn6" position_real="0.72 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/warn.png" />
+					</Widget>
+				</Widget>
+				<Widget type="Button" skin="ContainerItemBackground" name="GItem7" position_real="0.17067 0.255 0.15867 0.24">
+					<Property key="NeedKey" value="false" />
+					<Widget type="ImageBox" skin="ImageBox" name="GIcon7" position_real="0.1 0.05 0.8 0.68">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="TextBox" skin="TextBox" name="GName7" position_real="0.03 0.74 0.94 0.24">
+						<Property key="Caption" value="" />
+						<Property key="FontName" value="SM_TextTiny" />
+						<Property key="TextAlign" value="Center" />
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="GCheck7" position_real="0.04 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/check.png" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="GWarn7" position_real="0.72 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/warn.png" />
+					</Widget>
+				</Widget>
+				<Widget type="Button" skin="ContainerItemBackground" name="GItem8" position_real="0.33733 0.255 0.15867 0.24">
+					<Property key="NeedKey" value="false" />
+					<Widget type="ImageBox" skin="ImageBox" name="GIcon8" position_real="0.1 0.05 0.8 0.68">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="TextBox" skin="TextBox" name="GName8" position_real="0.03 0.74 0.94 0.24">
+						<Property key="Caption" value="" />
+						<Property key="FontName" value="SM_TextTiny" />
+						<Property key="TextAlign" value="Center" />
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="GCheck8" position_real="0.04 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/check.png" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="GWarn8" position_real="0.72 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/warn.png" />
+					</Widget>
+				</Widget>
+				<Widget type="Button" skin="ContainerItemBackground" name="GItem9" position_real="0.504 0.255 0.15867 0.24">
+					<Property key="NeedKey" value="false" />
+					<Widget type="ImageBox" skin="ImageBox" name="GIcon9" position_real="0.1 0.05 0.8 0.68">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="TextBox" skin="TextBox" name="GName9" position_real="0.03 0.74 0.94 0.24">
+						<Property key="Caption" value="" />
+						<Property key="FontName" value="SM_TextTiny" />
+						<Property key="TextAlign" value="Center" />
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="GCheck9" position_real="0.04 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/check.png" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="GWarn9" position_real="0.72 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/warn.png" />
+					</Widget>
+				</Widget>
+				<Widget type="Button" skin="ContainerItemBackground" name="GItem10" position_real="0.67067 0.255 0.15867 0.24">
+					<Property key="NeedKey" value="false" />
+					<Widget type="ImageBox" skin="ImageBox" name="GIcon10" position_real="0.1 0.05 0.8 0.68">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="TextBox" skin="TextBox" name="GName10" position_real="0.03 0.74 0.94 0.24">
+						<Property key="Caption" value="" />
+						<Property key="FontName" value="SM_TextTiny" />
+						<Property key="TextAlign" value="Center" />
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="GCheck10" position_real="0.04 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/check.png" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="GWarn10" position_real="0.72 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/warn.png" />
+					</Widget>
+				</Widget>
+				<Widget type="Button" skin="ContainerItemBackground" name="GItem11" position_real="0.83733 0.255 0.15867 0.24">
+					<Property key="NeedKey" value="false" />
+					<Widget type="ImageBox" skin="ImageBox" name="GIcon11" position_real="0.1 0.05 0.8 0.68">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="TextBox" skin="TextBox" name="GName11" position_real="0.03 0.74 0.94 0.24">
+						<Property key="Caption" value="" />
+						<Property key="FontName" value="SM_TextTiny" />
+						<Property key="TextAlign" value="Center" />
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="GCheck11" position_real="0.04 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/check.png" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="GWarn11" position_real="0.72 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/warn.png" />
+					</Widget>
+				</Widget>
+				<Widget type="Button" skin="ContainerItemBackground" name="GItem12" position_real="0.004 0.505 0.15867 0.24">
+					<Property key="NeedKey" value="false" />
+					<Widget type="ImageBox" skin="ImageBox" name="GIcon12" position_real="0.1 0.05 0.8 0.68">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="TextBox" skin="TextBox" name="GName12" position_real="0.03 0.74 0.94 0.24">
+						<Property key="Caption" value="" />
+						<Property key="FontName" value="SM_TextTiny" />
+						<Property key="TextAlign" value="Center" />
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="GCheck12" position_real="0.04 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/check.png" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="GWarn12" position_real="0.72 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/warn.png" />
+					</Widget>
+				</Widget>
+				<Widget type="Button" skin="ContainerItemBackground" name="GItem13" position_real="0.17067 0.505 0.15867 0.24">
+					<Property key="NeedKey" value="false" />
+					<Widget type="ImageBox" skin="ImageBox" name="GIcon13" position_real="0.1 0.05 0.8 0.68">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="TextBox" skin="TextBox" name="GName13" position_real="0.03 0.74 0.94 0.24">
+						<Property key="Caption" value="" />
+						<Property key="FontName" value="SM_TextTiny" />
+						<Property key="TextAlign" value="Center" />
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="GCheck13" position_real="0.04 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/check.png" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="GWarn13" position_real="0.72 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/warn.png" />
+					</Widget>
+				</Widget>
+				<Widget type="Button" skin="ContainerItemBackground" name="GItem14" position_real="0.33733 0.505 0.15867 0.24">
+					<Property key="NeedKey" value="false" />
+					<Widget type="ImageBox" skin="ImageBox" name="GIcon14" position_real="0.1 0.05 0.8 0.68">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="TextBox" skin="TextBox" name="GName14" position_real="0.03 0.74 0.94 0.24">
+						<Property key="Caption" value="" />
+						<Property key="FontName" value="SM_TextTiny" />
+						<Property key="TextAlign" value="Center" />
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="GCheck14" position_real="0.04 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/check.png" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="GWarn14" position_real="0.72 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/warn.png" />
+					</Widget>
+				</Widget>
+				<Widget type="Button" skin="ContainerItemBackground" name="GItem15" position_real="0.504 0.505 0.15867 0.24">
+					<Property key="NeedKey" value="false" />
+					<Widget type="ImageBox" skin="ImageBox" name="GIcon15" position_real="0.1 0.05 0.8 0.68">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="TextBox" skin="TextBox" name="GName15" position_real="0.03 0.74 0.94 0.24">
+						<Property key="Caption" value="" />
+						<Property key="FontName" value="SM_TextTiny" />
+						<Property key="TextAlign" value="Center" />
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="GCheck15" position_real="0.04 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/check.png" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="GWarn15" position_real="0.72 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/warn.png" />
+					</Widget>
+				</Widget>
+				<Widget type="Button" skin="ContainerItemBackground" name="GItem16" position_real="0.67067 0.505 0.15867 0.24">
+					<Property key="NeedKey" value="false" />
+					<Widget type="ImageBox" skin="ImageBox" name="GIcon16" position_real="0.1 0.05 0.8 0.68">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="TextBox" skin="TextBox" name="GName16" position_real="0.03 0.74 0.94 0.24">
+						<Property key="Caption" value="" />
+						<Property key="FontName" value="SM_TextTiny" />
+						<Property key="TextAlign" value="Center" />
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="GCheck16" position_real="0.04 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/check.png" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="GWarn16" position_real="0.72 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/warn.png" />
+					</Widget>
+				</Widget>
+				<Widget type="Button" skin="ContainerItemBackground" name="GItem17" position_real="0.83733 0.505 0.15867 0.24">
+					<Property key="NeedKey" value="false" />
+					<Widget type="ImageBox" skin="ImageBox" name="GIcon17" position_real="0.1 0.05 0.8 0.68">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="TextBox" skin="TextBox" name="GName17" position_real="0.03 0.74 0.94 0.24">
+						<Property key="Caption" value="" />
+						<Property key="FontName" value="SM_TextTiny" />
+						<Property key="TextAlign" value="Center" />
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="GCheck17" position_real="0.04 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/check.png" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="GWarn17" position_real="0.72 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/warn.png" />
+					</Widget>
+				</Widget>
+				<Widget type="Button" skin="ContainerItemBackground" name="GItem18" position_real="0.004 0.755 0.15867 0.24">
+					<Property key="NeedKey" value="false" />
+					<Widget type="ImageBox" skin="ImageBox" name="GIcon18" position_real="0.1 0.05 0.8 0.68">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="TextBox" skin="TextBox" name="GName18" position_real="0.03 0.74 0.94 0.24">
+						<Property key="Caption" value="" />
+						<Property key="FontName" value="SM_TextTiny" />
+						<Property key="TextAlign" value="Center" />
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="GCheck18" position_real="0.04 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/check.png" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="GWarn18" position_real="0.72 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/warn.png" />
+					</Widget>
+				</Widget>
+				<Widget type="Button" skin="ContainerItemBackground" name="GItem19" position_real="0.17067 0.755 0.15867 0.24">
+					<Property key="NeedKey" value="false" />
+					<Widget type="ImageBox" skin="ImageBox" name="GIcon19" position_real="0.1 0.05 0.8 0.68">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="TextBox" skin="TextBox" name="GName19" position_real="0.03 0.74 0.94 0.24">
+						<Property key="Caption" value="" />
+						<Property key="FontName" value="SM_TextTiny" />
+						<Property key="TextAlign" value="Center" />
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="GCheck19" position_real="0.04 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/check.png" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="GWarn19" position_real="0.72 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/warn.png" />
+					</Widget>
+				</Widget>
+				<Widget type="Button" skin="ContainerItemBackground" name="GItem20" position_real="0.33733 0.755 0.15867 0.24">
+					<Property key="NeedKey" value="false" />
+					<Widget type="ImageBox" skin="ImageBox" name="GIcon20" position_real="0.1 0.05 0.8 0.68">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="TextBox" skin="TextBox" name="GName20" position_real="0.03 0.74 0.94 0.24">
+						<Property key="Caption" value="" />
+						<Property key="FontName" value="SM_TextTiny" />
+						<Property key="TextAlign" value="Center" />
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="GCheck20" position_real="0.04 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/check.png" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="GWarn20" position_real="0.72 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/warn.png" />
+					</Widget>
+				</Widget>
+				<Widget type="Button" skin="ContainerItemBackground" name="GItem21" position_real="0.504 0.755 0.15867 0.24">
+					<Property key="NeedKey" value="false" />
+					<Widget type="ImageBox" skin="ImageBox" name="GIcon21" position_real="0.1 0.05 0.8 0.68">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="TextBox" skin="TextBox" name="GName21" position_real="0.03 0.74 0.94 0.24">
+						<Property key="Caption" value="" />
+						<Property key="FontName" value="SM_TextTiny" />
+						<Property key="TextAlign" value="Center" />
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="GCheck21" position_real="0.04 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/check.png" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="GWarn21" position_real="0.72 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/warn.png" />
+					</Widget>
+				</Widget>
+				<Widget type="Button" skin="ContainerItemBackground" name="GItem22" position_real="0.67067 0.755 0.15867 0.24">
+					<Property key="NeedKey" value="false" />
+					<Widget type="ImageBox" skin="ImageBox" name="GIcon22" position_real="0.1 0.05 0.8 0.68">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="TextBox" skin="TextBox" name="GName22" position_real="0.03 0.74 0.94 0.24">
+						<Property key="Caption" value="" />
+						<Property key="FontName" value="SM_TextTiny" />
+						<Property key="TextAlign" value="Center" />
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="GCheck22" position_real="0.04 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/check.png" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="GWarn22" position_real="0.72 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/warn.png" />
+					</Widget>
+				</Widget>
+				<Widget type="Button" skin="ContainerItemBackground" name="GItem23" position_real="0.83733 0.755 0.15867 0.24">
+					<Property key="NeedKey" value="false" />
+					<Widget type="ImageBox" skin="ImageBox" name="GIcon23" position_real="0.1 0.05 0.8 0.68">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="TextBox" skin="TextBox" name="GName23" position_real="0.03 0.74 0.94 0.24">
+						<Property key="Caption" value="" />
+						<Property key="FontName" value="SM_TextTiny" />
+						<Property key="TextAlign" value="Center" />
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="GCheck23" position_real="0.04 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/check.png" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="GWarn23" position_real="0.72 0.03 0.24 0.2">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/warn.png" />
+					</Widget>
+				</Widget>
+			</Widget>
+			<Widget type="Widget" skin="PanelEmpty" name="ViewRPanel" position_real="0.03 0.145 0.94 0.74">
+				<Widget type="Button" skin="ContainerItemBackground" name="RItem0" position_real="0 0.004 1 0.092">
+					<Property key="NeedKey" value="false" />
+					<Widget type="ImageBox" skin="ImageBox" name="RIcon0" position_real="0.008 0.08 0.054 0.84">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="RCheck0" position_real="0.008 0.08 0.03 0.45">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/check.png" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="RWarn0" position_real="0.035 0.47 0.03 0.45">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/warn.png" />
+					</Widget>
+					<Widget type="TextBox" skin="TextBox" name="RName0" position_real="0.075 0 0.42 1">
+						<Property key="Caption" value="" />
+						<Property key="FontName" value="SM_TextTiny" />
+						<Property key="TextAlign" value="Left VCenter" />
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="TextBox" skin="TextBox" name="RInfo0" position_real="0.5 0 0.49 1">
+						<Property key="Caption" value="" />
+						<Property key="FontName" value="SM_TextTiny" />
+						<Property key="TextAlign" value="Left VCenter" />
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="TextColour" value="#8B999F" />
+					</Widget>
+				</Widget>
+				<Widget type="Button" skin="ContainerItemBackground" name="RItem1" position_real="0 0.104 1 0.092">
+					<Property key="NeedKey" value="false" />
+					<Widget type="ImageBox" skin="ImageBox" name="RIcon1" position_real="0.008 0.08 0.054 0.84">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="RCheck1" position_real="0.008 0.08 0.03 0.45">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/check.png" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="RWarn1" position_real="0.035 0.47 0.03 0.45">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/warn.png" />
+					</Widget>
+					<Widget type="TextBox" skin="TextBox" name="RName1" position_real="0.075 0 0.42 1">
+						<Property key="Caption" value="" />
+						<Property key="FontName" value="SM_TextTiny" />
+						<Property key="TextAlign" value="Left VCenter" />
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="TextBox" skin="TextBox" name="RInfo1" position_real="0.5 0 0.49 1">
+						<Property key="Caption" value="" />
+						<Property key="FontName" value="SM_TextTiny" />
+						<Property key="TextAlign" value="Left VCenter" />
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="TextColour" value="#8B999F" />
+					</Widget>
+				</Widget>
+				<Widget type="Button" skin="ContainerItemBackground" name="RItem2" position_real="0 0.204 1 0.092">
+					<Property key="NeedKey" value="false" />
+					<Widget type="ImageBox" skin="ImageBox" name="RIcon2" position_real="0.008 0.08 0.054 0.84">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="RCheck2" position_real="0.008 0.08 0.03 0.45">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/check.png" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="RWarn2" position_real="0.035 0.47 0.03 0.45">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/warn.png" />
+					</Widget>
+					<Widget type="TextBox" skin="TextBox" name="RName2" position_real="0.075 0 0.42 1">
+						<Property key="Caption" value="" />
+						<Property key="FontName" value="SM_TextTiny" />
+						<Property key="TextAlign" value="Left VCenter" />
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="TextBox" skin="TextBox" name="RInfo2" position_real="0.5 0 0.49 1">
+						<Property key="Caption" value="" />
+						<Property key="FontName" value="SM_TextTiny" />
+						<Property key="TextAlign" value="Left VCenter" />
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="TextColour" value="#8B999F" />
+					</Widget>
+				</Widget>
+				<Widget type="Button" skin="ContainerItemBackground" name="RItem3" position_real="0 0.304 1 0.092">
+					<Property key="NeedKey" value="false" />
+					<Widget type="ImageBox" skin="ImageBox" name="RIcon3" position_real="0.008 0.08 0.054 0.84">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="RCheck3" position_real="0.008 0.08 0.03 0.45">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/check.png" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="RWarn3" position_real="0.035 0.47 0.03 0.45">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/warn.png" />
+					</Widget>
+					<Widget type="TextBox" skin="TextBox" name="RName3" position_real="0.075 0 0.42 1">
+						<Property key="Caption" value="" />
+						<Property key="FontName" value="SM_TextTiny" />
+						<Property key="TextAlign" value="Left VCenter" />
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="TextBox" skin="TextBox" name="RInfo3" position_real="0.5 0 0.49 1">
+						<Property key="Caption" value="" />
+						<Property key="FontName" value="SM_TextTiny" />
+						<Property key="TextAlign" value="Left VCenter" />
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="TextColour" value="#8B999F" />
+					</Widget>
+				</Widget>
+				<Widget type="Button" skin="ContainerItemBackground" name="RItem4" position_real="0 0.404 1 0.092">
+					<Property key="NeedKey" value="false" />
+					<Widget type="ImageBox" skin="ImageBox" name="RIcon4" position_real="0.008 0.08 0.054 0.84">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="RCheck4" position_real="0.008 0.08 0.03 0.45">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/check.png" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="RWarn4" position_real="0.035 0.47 0.03 0.45">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/warn.png" />
+					</Widget>
+					<Widget type="TextBox" skin="TextBox" name="RName4" position_real="0.075 0 0.42 1">
+						<Property key="Caption" value="" />
+						<Property key="FontName" value="SM_TextTiny" />
+						<Property key="TextAlign" value="Left VCenter" />
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="TextBox" skin="TextBox" name="RInfo4" position_real="0.5 0 0.49 1">
+						<Property key="Caption" value="" />
+						<Property key="FontName" value="SM_TextTiny" />
+						<Property key="TextAlign" value="Left VCenter" />
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="TextColour" value="#8B999F" />
+					</Widget>
+				</Widget>
+				<Widget type="Button" skin="ContainerItemBackground" name="RItem5" position_real="0 0.504 1 0.092">
+					<Property key="NeedKey" value="false" />
+					<Widget type="ImageBox" skin="ImageBox" name="RIcon5" position_real="0.008 0.08 0.054 0.84">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="RCheck5" position_real="0.008 0.08 0.03 0.45">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/check.png" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="RWarn5" position_real="0.035 0.47 0.03 0.45">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/warn.png" />
+					</Widget>
+					<Widget type="TextBox" skin="TextBox" name="RName5" position_real="0.075 0 0.42 1">
+						<Property key="Caption" value="" />
+						<Property key="FontName" value="SM_TextTiny" />
+						<Property key="TextAlign" value="Left VCenter" />
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="TextBox" skin="TextBox" name="RInfo5" position_real="0.5 0 0.49 1">
+						<Property key="Caption" value="" />
+						<Property key="FontName" value="SM_TextTiny" />
+						<Property key="TextAlign" value="Left VCenter" />
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="TextColour" value="#8B999F" />
+					</Widget>
+				</Widget>
+				<Widget type="Button" skin="ContainerItemBackground" name="RItem6" position_real="0 0.604 1 0.092">
+					<Property key="NeedKey" value="false" />
+					<Widget type="ImageBox" skin="ImageBox" name="RIcon6" position_real="0.008 0.08 0.054 0.84">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="RCheck6" position_real="0.008 0.08 0.03 0.45">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/check.png" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="RWarn6" position_real="0.035 0.47 0.03 0.45">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/warn.png" />
+					</Widget>
+					<Widget type="TextBox" skin="TextBox" name="RName6" position_real="0.075 0 0.42 1">
+						<Property key="Caption" value="" />
+						<Property key="FontName" value="SM_TextTiny" />
+						<Property key="TextAlign" value="Left VCenter" />
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="TextBox" skin="TextBox" name="RInfo6" position_real="0.5 0 0.49 1">
+						<Property key="Caption" value="" />
+						<Property key="FontName" value="SM_TextTiny" />
+						<Property key="TextAlign" value="Left VCenter" />
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="TextColour" value="#8B999F" />
+					</Widget>
+				</Widget>
+				<Widget type="Button" skin="ContainerItemBackground" name="RItem7" position_real="0 0.704 1 0.092">
+					<Property key="NeedKey" value="false" />
+					<Widget type="ImageBox" skin="ImageBox" name="RIcon7" position_real="0.008 0.08 0.054 0.84">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="RCheck7" position_real="0.008 0.08 0.03 0.45">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/check.png" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="RWarn7" position_real="0.035 0.47 0.03 0.45">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/warn.png" />
+					</Widget>
+					<Widget type="TextBox" skin="TextBox" name="RName7" position_real="0.075 0 0.42 1">
+						<Property key="Caption" value="" />
+						<Property key="FontName" value="SM_TextTiny" />
+						<Property key="TextAlign" value="Left VCenter" />
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="TextBox" skin="TextBox" name="RInfo7" position_real="0.5 0 0.49 1">
+						<Property key="Caption" value="" />
+						<Property key="FontName" value="SM_TextTiny" />
+						<Property key="TextAlign" value="Left VCenter" />
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="TextColour" value="#8B999F" />
+					</Widget>
+				</Widget>
+				<Widget type="Button" skin="ContainerItemBackground" name="RItem8" position_real="0 0.804 1 0.092">
+					<Property key="NeedKey" value="false" />
+					<Widget type="ImageBox" skin="ImageBox" name="RIcon8" position_real="0.008 0.08 0.054 0.84">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="RCheck8" position_real="0.008 0.08 0.03 0.45">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/check.png" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="RWarn8" position_real="0.035 0.47 0.03 0.45">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/warn.png" />
+					</Widget>
+					<Widget type="TextBox" skin="TextBox" name="RName8" position_real="0.075 0 0.42 1">
+						<Property key="Caption" value="" />
+						<Property key="FontName" value="SM_TextTiny" />
+						<Property key="TextAlign" value="Left VCenter" />
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="TextBox" skin="TextBox" name="RInfo8" position_real="0.5 0 0.49 1">
+						<Property key="Caption" value="" />
+						<Property key="FontName" value="SM_TextTiny" />
+						<Property key="TextAlign" value="Left VCenter" />
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="TextColour" value="#8B999F" />
+					</Widget>
+				</Widget>
+				<Widget type="Button" skin="ContainerItemBackground" name="RItem9" position_real="0 0.904 1 0.092">
+					<Property key="NeedKey" value="false" />
+					<Widget type="ImageBox" skin="ImageBox" name="RIcon9" position_real="0.008 0.08 0.054 0.84">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="RCheck9" position_real="0.008 0.08 0.03 0.45">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/check.png" />
+					</Widget>
+					<Widget type="ImageBox" skin="ImageBox" name="RWarn9" position_real="0.035 0.47 0.03 0.45">
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="ImageTexture" value="$CONTENT_cbd434bf-4b67-4bc1-b367-f35c1618b74a/Gui/warn.png" />
+					</Widget>
+					<Widget type="TextBox" skin="TextBox" name="RName9" position_real="0.075 0 0.42 1">
+						<Property key="Caption" value="" />
+						<Property key="FontName" value="SM_TextTiny" />
+						<Property key="TextAlign" value="Left VCenter" />
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+					</Widget>
+					<Widget type="TextBox" skin="TextBox" name="RInfo9" position_real="0.5 0 0.49 1">
+						<Property key="Caption" value="" />
+						<Property key="FontName" value="SM_TextTiny" />
+						<Property key="TextAlign" value="Left VCenter" />
+						<Property key="NeedMouse" value="false" />
+						<Property key="NeedKey" value="false" />
+						<Property key="TextColour" value="#8B999F" />
+					</Widget>
+				</Widget>
+			</Widget>
+			<Widget type="TextBox" skin="TextBox" name="Status" position_real="0.03 0.9 0.32 0.06">
+				<Property key="Caption" value="0" />
+				<Property key="FontName" value="SM_TextTiny" />
+				<Property key="TextAlign" value="Left VCenter" />
+				<Property key="NeedMouse" value="false" />
+				<Property key="NeedKey" value="false" />
+			</Widget>
+			<Widget type="Button" skin="DressbotArrowLeft" name="GridPrev" position_real="0.36 0.905 0.05 0.05">
+				<Property key="NeedMouse" value="true" />
+			</Widget>
+			<Widget type="TextBox" skin="TextBox" name="GridPage" position_real="0.42 0.9 0.16 0.06">
+				<Property key="Caption" value="1/1" />
+				<Property key="FontName" value="SM_TextTiny" />
+				<Property key="TextAlign" value="Center" />
+				<Property key="NeedMouse" value="false" />
+				<Property key="NeedKey" value="false" />
+			</Widget>
+			<Widget type="Button" skin="DressbotArrowRight" name="GridNext" position_real="0.59 0.905 0.05 0.05">
+				<Property key="NeedMouse" value="true" />
+			</Widget>
+			<Widget type="Button" skin="SettingsButton" name="Reload" position_real="0.72 0.9 0.25 0.06">
+				<Property key="Caption" value="Reload" />
+				<Property key="FontName" value="SM_ButtonSmall" />
+				<Property key="TextAlign" value="Center" />
+			</Widget>
+		</Widget>
+		<Widget type="Widget" skin="BackgroundPanel" name="RightPanel" position_real="0.695 0.13 0.28 0.83">
+			<Widget type="ImageBox" skin="ImageBox" name="DetailIcon" position_real="0.282 0.02 0.436 0.27">
+				<Property key="NeedMouse" value="false" />
+				<Property key="NeedKey" value="false" />
+			</Widget>
+			<Widget type="TextBox" skin="TextBox" name="DetailName" position_real="0.04 0.295 0.92 0.045">
+				<Property key="Caption" value="-" />
+				<Property key="FontName" value="SM_ItemTitle" />
+				<Property key="TextAlign" value="Center" />
+				<Property key="NeedMouse" value="false" />
+				<Property key="NeedKey" value="false" />
+			</Widget>
+			<Widget type="TextBox" skin="TextBox" name="DetailInfo" position_real="0.04 0.34 0.92 0.035">
+				<Property key="Caption" value="" />
+				<Property key="FontName" value="SM_TextTiny" />
+				<Property key="TextAlign" value="Center" />
+				<Property key="NeedMouse" value="false" />
+				<Property key="NeedKey" value="false" />
+			</Widget>
+			<Widget type="TextBox" skin="TextBox" name="DetailFolder" position_real="0.04 0.375 0.92 0.035">
+				<Property key="Caption" value="" />
+				<Property key="FontName" value="SM_TextTiny" />
+				<Property key="TextAlign" value="Left VCenter" />
+				<Property key="NeedMouse" value="false" />
+				<Property key="NeedKey" value="false" />
+			</Widget>
+			<Widget type="TextBox" skin="TextBox" name="TagHeader" position_real="0.04 0.41 0.92 0.035">
+				<Property key="Caption" value="Tags" />
+				<Property key="FontName" value="SM_TextTiny" />
+				<Property key="TextAlign" value="Left VCenter" />
+				<Property key="NeedMouse" value="false" />
+				<Property key="NeedKey" value="false" />
+				<Property key="TextColour" value="#8B999F" />
+			</Widget>
+			<Widget type="Button" skin="SettingsButton" name="Chip0" position_real="0.04 0.45 0.45 0.045">
+				<Property key="Caption" value="tag" />
+				<Property key="FontName" value="SM_ButtonSmall" />
+				<Property key="TextAlign" value="Center" />
+			</Widget>
+			<Widget type="Button" skin="SettingsButton" name="Chip1" position_real="0.51 0.45 0.45 0.045">
+				<Property key="Caption" value="tag" />
+				<Property key="FontName" value="SM_ButtonSmall" />
+				<Property key="TextAlign" value="Center" />
+			</Widget>
+			<Widget type="Button" skin="SettingsButton" name="Chip2" position_real="0.04 0.501 0.45 0.045">
+				<Property key="Caption" value="tag" />
+				<Property key="FontName" value="SM_ButtonSmall" />
+				<Property key="TextAlign" value="Center" />
+			</Widget>
+			<Widget type="Button" skin="SettingsButton" name="Chip3" position_real="0.51 0.501 0.45 0.045">
+				<Property key="Caption" value="tag" />
+				<Property key="FontName" value="SM_ButtonSmall" />
+				<Property key="TextAlign" value="Center" />
+			</Widget>
+			<Widget type="Button" skin="SettingsButton" name="Chip4" position_real="0.04 0.552 0.45 0.045">
+				<Property key="Caption" value="tag" />
+				<Property key="FontName" value="SM_ButtonSmall" />
+				<Property key="TextAlign" value="Center" />
+			</Widget>
+			<Widget type="Button" skin="SettingsButton" name="Chip5" position_real="0.51 0.552 0.45 0.045">
+				<Property key="Caption" value="tag" />
+				<Property key="FontName" value="SM_ButtonSmall" />
+				<Property key="TextAlign" value="Center" />
+			</Widget>
+			<Widget type="Button" skin="SettingsButton" name="Chip6" position_real="0.04 0.603 0.45 0.045">
+				<Property key="Caption" value="tag" />
+				<Property key="FontName" value="SM_ButtonSmall" />
+				<Property key="TextAlign" value="Center" />
+			</Widget>
+			<Widget type="Button" skin="SettingsButton" name="Chip7" position_real="0.51 0.603 0.45 0.045">
+				<Property key="Caption" value="tag" />
+				<Property key="FontName" value="SM_ButtonSmall" />
+				<Property key="TextAlign" value="Center" />
+			</Widget>
+			<Widget type="Widget" skin="SearchBarBackground" name="TagInputBg" position_real="0.04 0.66 0.62 0.05">
+				<Widget type="EditBox" skin="EditBoxEmpty" name="TagInput" position_real="0.03 0 0.94 1">
+					<Property key="FontName" value="SM_SearchText" />
+					<Property key="TextAlign" value="Left VCenter" />
+					<Property key="ReadOnly" value="false" />
+					<Property key="Static" value="false" />
+				</Widget>
+			</Widget>
+			<Widget type="Button" skin="SettingsButton" name="AddTag" position_real="0.68 0.66 0.28 0.05">
+				<Property key="Caption" value="Add" />
+				<Property key="FontName" value="SM_ButtonSmall" />
+				<Property key="TextAlign" value="Center" />
+			</Widget>
+			<Widget type="Button" skin="ToggleButton" name="DropMode" position_real="0.04 0.72 0.92 0.05">
+				<Property key="Caption" value="Put into..." />
+				<Property key="FontName" value="SM_ButtonSmall" />
+				<Property key="TextAlign" value="Center" />
+			</Widget>
+			<Widget type="Button" skin="SettingsButton" name="Unfile" position_real="0.04 0.78 0.29 0.05">
+				<Property key="Caption" value="Unfile" />
+				<Property key="FontName" value="SM_ButtonSmall" />
+				<Property key="TextAlign" value="Center" />
+			</Widget>
+			<Widget type="Button" skin="SettingsButton" name="Favorite" position_real="0.355 0.78 0.29 0.05">
+				<Property key="Caption" value="Fav" />
+				<Property key="FontName" value="SM_ButtonSmall" />
+				<Property key="TextAlign" value="Center" />
+			</Widget>
+			<Widget type="Button" skin="SettingsButton" name="Hide" position_real="0.67 0.78 0.29 0.05">
+				<Property key="Caption" value="Hide" />
+				<Property key="FontName" value="SM_ButtonSmall" />
+				<Property key="TextAlign" value="Center" />
+			</Widget>
+			<Widget type="TextBox" skin="TextBox" name="DetailWarn" position_real="0.04 0.835 0.92 0.035">
+				<Property key="Caption" value="" />
+				<Property key="FontName" value="SM_TextTiny" />
+				<Property key="TextAlign" value="Center" />
+				<Property key="NeedMouse" value="false" />
+				<Property key="NeedKey" value="false" />
+			</Widget>
+			<Widget type="Button" skin="StyledButtonLarge" name="Place" position_real="0.1 0.875 0.8 0.08">
+				<Property key="Caption" value="PLACE" />
+				<Property key="FontName" value="SM_Button" />
+				<Property key="TextAlign" value="Center" />
+			</Widget>
+			<Widget type="Button" skin="StyledButtonLarge" name="PlaceDisabled" position_real="0.1 0.875 0.8 0.08">
+				<Property key="Caption" value="MISSING MODS" />
+				<Property key="FontName" value="SM_Button" />
+				<Property key="TextAlign" value="Center" />
+				<Property key="Enabled" value="false" />
+				<Property key="Visible" value="false" />
+			</Widget>
+		</Widget>
+	</Widget>
+	<CodeGeneratorSettings />
+</MyGUI>

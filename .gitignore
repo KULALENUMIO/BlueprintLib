@@ -1,0 +1,21 @@
+# personal data written by the game / manager (blueprint list, library, requests)
+Mod/Data/*.json
+Mod/Data/*.tmp
+# Scrap Mechanic's generated cache (contains copies of the files above)
+Mod/Cache/
+
+# local-only storage (archived tooling, not published)
+_archive/
+
+# build output
+dist/
+
+# Python / logs / editors
+__pycache__/
+*.pyc
+*.log
+*.tmp
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini

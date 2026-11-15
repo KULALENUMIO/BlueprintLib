@@ -1,0 +1,55 @@
+[h1]Blueprint Lib[/h1]
+[b]A lift replacement that organizes your blueprints - folders, tags, favorites, missing-mod check, and a browser manager.[/b]
+[b]リフトの代わりになるブループリント整理ツール ― フォルダ・タグ・お気に入り・MOD不足チェック・ブラウザ管理画面つき[/b]
+
+[i]Creative only. Your blueprint files are only read, never modified.[/i]
+[i]Languages / 言語 / 언어 / 语言: English · 日本語 · 한국어 · 中文[/i]
+[i]クリエイティブ専用。ブループリントのファイルは読み取るだけで、変更しません。[/i]
+
+[hr][/hr]
+[h2]⚠ First: run the Manager (included) / 最初にマネージャーを起動（同梱）[/h2]
+Lua mods can't list folders, so the blueprint list is created by the included Manager. It needs [url=https://www.python.org/downloads/]Python 3.10+[/url].
+Lua からはフォルダの中身を一覧できないため、ブループリント一覧は同梱のマネージャーで作成します。[url=https://www.python.org/downloads/]Python 3.10 以上[/url]が必要です。
+
+[list]
+[*]Open this mod's folder / この MOD のフォルダを開く:
+[code]<Steam library>\steamapps\workshop\content\387990\<item id>\[/code]
+The item id is the number after [b]?id=[/b] in this page's URL. / アイテムID は、このページの URL の [b]?id=[/b] の後ろの数字です。
+Can't find the Steam library? Steam → right-click Scrap Mechanic → Manage → Browse local files, then go up two folders to [b]steamapps[/b]. / 場所が分からないときは、Steam で Scrap Mechanic を右クリック →「管理」→「ローカルファイルを閲覧」から2つ上の [b]steamapps[/b] へ。
+[*]Run [b]Blueprint Lib Manager.bat[/b] → press [b]Rescan[/b] / [b]Blueprint Lib Manager.bat[/b] を起動して「再スキャン」を押す
+[*]Enable the mod in a Creative world and take the tool from the inventory / クリエイティブのワールドで MOD を有効にし、インベントリからツールを取り出す
+[/list]
+
+[hr][/hr]
+[h2]Features / 特徴[/h2]
+[list]
+[*][b]Nested folders, tags, favorites, hidden, recently used[/b] / 階層フォルダ・タグ・お気に入り・非表示・最近使った
+[*]3 views (large / icons / list), search with [b]#tag[/b], sorting / 3種類の表示・#タグ検索・並び替え
+[*]Multi-select: move, tag, hide or [b]place one after another[/b] / 複数選択でまとめて移動・タグ付け・非表示・順に設置
+[*]Lift-like placement with ghost preview - Q rotate, F height, R physics/fixed / リフトのような設置（Q 回転・F 高さ・R 物理/固定）
+[*][b]Missing-mod check[/b]: blueprints using parts from mods that aren't enabled get a ⚠ and can't be placed / 有効でない MOD のパーツを使うものに ⚠ を付け、設置できないようにします
+[*][b]Browser manager[/b]: real drag & drop, Ctrl/Shift selection, required mods with Steam links, "Place in game" / ドラッグ＆ドロップ・範囲選択・必要MODと Steam リンク・「ゲームで設置」
+[*]Edit in game and in the browser at the same time - both changes are kept / ゲームとブラウザで同時に編集しても両方の変更が残ります
+[*]Automatic backup of your library (%APPDATA%\BlueprintLib) / 整理情報を自動バックアップ
+[/list]
+
+[h2]Controls / 操作[/h2]
+[table]
+[tr][th]Input[/th][th]Action / 操作[/th][/tr]
+[tr][td]RMB / R[/td][td]Open library / 管理メニューを開く[/td][/tr]
+[tr][td]LMB[/td][td]Place / 設置[/td][/tr]
+[tr][td]Q[/td][td]Rotate / 回転[/td][/tr]
+[tr][td]F[/td][td]Height 0.5 → 1 → 2 → 4 → 8 → 0.25 m / 高さ[/td][/tr]
+[tr][td]R (placing)[/td][td]Physics / Fixed - 物理あり / 固定[/td][/tr]
+[tr][td]RMB (placing)[/td][td]Cancel / キャンセル[/td][/tr]
+[/table]
+
+[h2]Notes / 注意[/h2]
+[list]
+[*]Placing works in single player or as host / 設置はシングルプレイかホストのみ
+[*]No collision check when placing / 設置時の重なりチェックはありません
+[*]After saving new blueprints: Manager → Rescan, then in-game menu → Reload / 新しく保存したら、マネージャーで「再スキャン」→ ゲーム内で「再読込」
+[/list]
+
+License: MIT - free to modify and redistribute / ライセンス：MIT（改造・再配布自由）
+Source, issues, manual install /ソース・不具合報告・手動インストール: [url=https://github.com/KULALENUMIO/BlueprintLib]https://github.com/KULALENUMIO/BlueprintLib[/url]

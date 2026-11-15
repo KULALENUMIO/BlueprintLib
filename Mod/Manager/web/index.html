@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Blueprint Lib Manager</title>
+<link rel="icon" href="/favicon.png?v=2"><!-- bump v when the icon changes: browsers cache favicons hard -->
+<link rel="stylesheet" href="/app.css">
+<script>window.BR_TOKEN = "__BR_TOKEN__";</script>
+</head>
+<body>
+<header class="top">
+  <div class="brand">BLUEPRINT <b>LIB</b></div>
+  <input id="search" type="search" data-i18n-ph="search.ph" autocomplete="off">
+  <div class="seg" id="viewSeg">
+    <button data-view="L" data-i18n="view.L" data-i18n-title="view.L.title"></button>
+    <button data-view="G" data-i18n="view.G" data-i18n-title="view.G.title"></button>
+    <button data-view="R" data-i18n="view.R" data-i18n-title="view.R.title"></button>
+  </div>
+  <select id="sort" data-i18n-title="sort.title">
+    <option value="new" data-i18n="sort.new"></option>
+    <option value="old" data-i18n="sort.old"></option>
+    <option value="name" data-i18n="sort.name"></option>
+    <option value="used" data-i18n="sort.used"></option>
+  </select>
+  <button id="rescan" data-i18n="rescan" data-i18n-title="rescan.title"></button>
+  <select id="lang" title="Language / 言語 / 언어 / 语言">
+    <option value="en">English</option>
+    <option value="ja">日本語</option>
+    <option value="ko">한국어</option>
+    <option value="zh">中文</option>
+  </select>
+  <span id="status" class="status"></span>
+</header>
+
+<main>
+  <aside class="left">
+    <div class="tabs">
+      <button data-tab="folders" class="on" data-i18n="tabs.folders"></button>
+      <button data-tab="tags" data-i18n="tabs.tags"></button>
+    </div>
+    <div id="where" class="where"></div>
+    <ul id="tree" class="tree"></ul>
+    <div class="folder-actions" id="folderActions">
+      <button id="newFolder" data-i18n="folder.new" data-i18n-title="folder.new.title"></button>
+      <button id="renameFolder" data-i18n="folder.rename" data-i18n-title="folder.rename.title"></button>
+      <button id="deleteFolder" class="danger" data-i18n="folder.delete" data-i18n-title="folder.delete.title"></button>
+    </div>
+  </aside>
+
+  <section class="center">
+    <div class="bar">
+      <span id="count"></span>
+      <span class="grow"></span>
+      <button id="selectAll" data-i18n="selectAll" data-i18n-title="selectAll.title"></button>
+      <button id="selectNone" data-i18n="selectNone" data-i18n-title="selectNone.title"></button>
+    </div>
+    <div id="items" class="items"></div>
+  </section>
+
+  <aside class="right" id="detail"></aside>
+</main>
+
+<div id="toasts"></div>
+<script src="/i18n.js"></script>
+<script src="/app.js"></script>
+</body>
+</html>
