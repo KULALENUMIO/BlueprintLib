@@ -34,10 +34,10 @@ your blueprint files are never modified.
 
 The manager ships inside the mod: subscribing gets you everything, and Steam updates both together.
 
-1. Subscribe to **Blueprint Lib** on the Steam Workshop and start the game once (so it downloads)
+1. Subscribe to [**Blueprint Lib**](https://steamcommunity.com/sharedfiles/filedetails/?id=3840235435) on the Steam Workshop and start the game once (so it downloads)
 2. Open the mod's folder:
-   `<Steam library>\steamapps\workshop\content\387990\<item id>\`
-   - the item id is the number after `?id=` in the Workshop page URL
+   `<Steam library>\steamapps\workshop\content\387990\3840235435\`
+   - `3840235435` is this mod's Workshop item id
    - to find your Steam library: right-click Scrap Mechanic in Steam → Manage → Browse local files opens
      `steamapps\common\Scrap Mechanic`; go up two levels to `steamapps`, then into `workshop\content\387990`
 3. Double-click **`Blueprint Lib Manager.bat`** in that folder. The manager opens in your browser — press **Rescan**

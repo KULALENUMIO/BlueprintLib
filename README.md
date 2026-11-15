@@ -31,10 +31,10 @@ Scrap Mechanic のクリエイティブ向け、**リフトの代わりになる
 
 マネージャーは MOD に同梱されています。購読するだけで全部そろい、Steam が MOD と一緒に自動で更新します。
 
-1. Steam Workshop で **Blueprint Lib** を購読し、ゲームを一度起動します（ダウンロードされます）
+1. Steam Workshop で [**Blueprint Lib**](https://steamcommunity.com/sharedfiles/filedetails/?id=3840235435) を購読し、ゲームを一度起動します（ダウンロードされます）
 2. MOD のフォルダを開きます
-   `<Steam のライブラリ>\steamapps\workshop\content\387990\<アイテムID>\`
-   - アイテムID は、Workshop のページの URL の `?id=` の後ろの数字です
+   `<Steam のライブラリ>\steamapps\workshop\content\387990\3840235435\`
+   - `3840235435` は、この MOD の Workshop のアイテムID です
    - Steam のライブラリの場所が分からないときは、Steam で Scrap Mechanic を右クリック →「管理」→「ローカルファイルを閲覧」で `steamapps\common\Scrap Mechanic` が開くので、そこから `steamapps` まで2つ上がって `workshop\content\387990` へ進みます
 3. フォルダの中の **`Blueprint Lib Manager.bat`** をダブルクリックします。ブラウザで管理画面が開くので、**「再スキャン」**を押します
    - よく使う場合は、この `.bat` のショートカットをデスクトップなどに作っておくと便利です

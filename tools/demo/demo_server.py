@@ -4,7 +4,7 @@ screenshots. Reads none of your real blueprints or library.
     python tools/demo/voxel_icons.py tools/demo/icons
     python tools/demo/demo_server.py tools/demo/icons [--port 47990]
     msedge --headless=new --window-size=1920,1080 --virtual-time-budget=9000 --screenshot=shot.png ^
-        "http://127.0.0.1:47990/#view=L&scope=Vehicles&select=demo-buggy,demo-truck,demo-tank"
+        "http://127.0.0.1:47990/?lang=ja#view=L&scope=Vehicles&select=demo-buggy,demo-truck,demo-tank"
 """
 from __future__ import annotations
 
@@ -85,9 +85,13 @@ class Handler(BaseHTTPRequestHandler):
         self.wfile.write(body)
 
     def do_GET(self):
-        path = self.path.split("?")[0]
+        path, _, query = self.path.partition("?")
         if path in ("/", "/index.html"):
-            return self.send(200, (WEB / "index.html").read_text(encoding="utf-8").replace("__BR_TOKEN__", "demo").encode(), TYPES[".html"])
+            html = (WEB / "index.html").read_text(encoding="utf-8").replace("__BR_TOKEN__", "demo")
+            lang = dict(p.partition("=")[::2] for p in query.split("&") if p).get("lang", "")
+            if lang in ("en", "ja", "ko", "zh"):  # ?lang=ko - pick the UI language for a screenshot
+                html = html.replace("<script>window.BR_TOKEN", f"<script>localStorage.setItem('bl-lang','{lang}');</script>\n<script>window.BR_TOKEN", 1)
+            return self.send(200, html.encode(), TYPES[".html"])
         if path == "/api/state":
             return self.send(200, json.dumps(self.state).encode())
         if path == "/api/rev":

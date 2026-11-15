@@ -96,7 +96,7 @@ def keyart(shot: Image.Image) -> Image.Image:
     card = framed(shot, 1120)
     img.alpha_composite(card, (W - card.width - 20, (H - card.height) // 2 + 10))
     d = ImageDraw.Draw(img)
-    d.text((90, H - 58), "Free companion manager on GitHub  ·  Python 3.10+", font=font("bahnschrift.ttf", 22, "SemiLight"), fill=MUTED)
+    d.text((90, H - 58), "Manager included  ·  Python 3.10+", font=font("bahnschrift.ttf", 22, "SemiLight"), fill=MUTED)
     return img.convert("RGB")
 
 

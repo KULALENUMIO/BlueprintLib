@@ -62,6 +62,10 @@
 | `Mod/preview.jpg` | **Workshop のサムネイル**（16:9、1920×1080）。一覧で小さく表示されるので、背景と「BLUEPRINT LIB」の文字だけにしています。ゲーム内の MOD 一覧にも使われます |
 | `docs/images/keyart.jpg` | **紹介画像**。Workshop のページに追加画像としてアップロードし、GitHub の README にも使います |
 | `docs/images/manager.jpg` | マネージャーの画面（架空のデータ） |
+| `docs/images/workshop/1_getting_started.jpg` 〜 `4_languages.jpg` | Workshop の追加画像（最初の手順・整理・MOD不足チェック・4言語）。説明文の中にも表示しています |
+| `docs/images/workshop/banner_*.jpg` | Workshop の説明文の見出し画像 |
+
+Workshop の説明文（`docs/workshop_description.txt`）は、画像を GitHub の `main` ブランチから読み込みます（`raw.githubusercontent.com`）。画像のファイル名を変えたら、説明文も直してください。
 
 紹介画像に写っている作品は、`tools/demo/` で作った架空のものです（あなたのブループリントは写りません）。
 
@@ -76,4 +80,16 @@ start python tools\demo\demo_server.py %TEMP%\bl_icons
 msedge --headless=new --window-size=1920,1080 --virtual-time-budget=9000 --screenshot=%TEMP%\shot.png "http://127.0.0.1:47990/#view=L&scope=%%2Aall&select=demo-buggy,demo-truck,demo-tank"
 python tools\make_preview.py docs\images\keyart.jpg --style keyart --screenshot %TEMP%\shot.png
 ```
-マネージャーの URL の `#view=…&scope=…&select=…` で、表示形式・フォルダ・選択した状態を指定できます。
+マネージャーの URL の `#view=…&scope=…&select=…` で、表示形式・フォルダ・選択した状態を指定できます。デモ用サーバーでは `?lang=en|ja|ko|zh` で表示言語も指定できます。
+
+Workshop の追加画像と見出し画像（`tools/make_promo.py`）は、デモ用サーバーを2倍の解像度（`--force-device-scale-factor=2`）で撮った画面から作ります。必要な画面の名前と URL は、次の通りです（`shots` フォルダに `<名前>.png` で保存）。
+
+| 名前 | URL（`http://127.0.0.1:47990/` の後ろ） |
+|---|---|
+| `folders_en` | `?lang=en#view=G&scope=Vehicles&select=demo-buggy,demo-buggy2,demo-hover,demo-hover2` |
+| `missing_en` | `?lang=en#view=L&scope=%2Anotinstalled&select=demo-tank2` |
+| `lang_en` / `lang_ja` / `lang_ko` / `lang_zh` | `?lang=<言語>#view=G&scope=Aircraft&select=demo-heli` |
+
+```bat
+python tools\make_promo.py shots docs\images
+```
