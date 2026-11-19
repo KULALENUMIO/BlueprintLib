@@ -5,7 +5,19 @@
 [i]クリエイティブ専用 · ブループリントのファイルは読み取るだけで、変更しません[/i]
 
 [img]https://raw.githubusercontent.com/KULALENUMIO/BlueprintLib/main/docs/images/workshop/banner_first.jpg[/img]
-[img]https://raw.githubusercontent.com/KULALENUMIO/BlueprintLib/main/docs/images/workshop/1_getting_started.jpg[/img]
+[b]⚠ Run the Manager first - the in-game library stays empty until you do[/b]
+[list]
+[*]Start [b]Blueprint Lib Manager.bat[/b] (in the mod's folder below) and press [b]Rescan[/b]. Until then the tool only shows "No blueprint list yet".
+[*]Do it again whenever you save new blueprints or add / remove mods: [b]Rescan[/b] in the manager, then [b]Reload[/b] in the in-game menu.
+[*]Organizing and placing in game work without the manager running. Drag & drop and "Place in game" need it open.
+[/list]
+
+[b]⚠ 最初にマネージャーを起動してください（起動するまで、ゲーム内の一覧は空のままです）[/b]
+[list]
+[*]下の MOD フォルダにある [b]Blueprint Lib Manager.bat[/b] を起動して、[b]「再スキャン」[/b]を押してください。それまでは、ツールを使っても「ブループリント一覧がありません」と表示されるだけです。
+[*]ブループリントを新しく保存したときや、MOD を入れ替えたときも、マネージャーで[b]「再スキャン」[/b]→ ゲーム内メニューで[b]「再読込」[/b]を押してください。
+[*]ゲーム内での整理と設置は、マネージャーを閉じていてもできます。ドラッグ＆ドロップや「ゲームで設置」は、マネージャーを開いている間だけ使えます。
+[/list]
 
 [b]The mod's folder / MOD のフォルダ[/b]
 [code]<Steam library>\steamapps\workshop\content\387990\3840235435\[/code]

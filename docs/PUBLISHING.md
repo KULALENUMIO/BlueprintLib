@@ -53,6 +53,7 @@
 2. `prepare-upload` → Mod Tool で同じアイテムを更新 → `restore`
 3. `release.py zip` → GitHub の Release に添付します
 4. Workshop のページの説明文が `description.json` の短い文に戻っていたら、`docs\workshop_description.txt` を貼り直します（Mod Tool がアップロードのたびに上書きすることがあります）
+5. Mod Tool は、Workshop の説明文を `description.json` に書き戻すことがあります（2,000文字で切れ、日本語が文字化けします）。`git diff Mod/description.json` で `description` が変わっていたら、`git checkout -- Mod/description.json` で元の短い文に戻します（`fileId` や `version` が新しく変わったときは、そこだけ残します）
 
 利用者の `library.json` は、Workshop の更新で消えても、マネージャーの起動時に `%APPDATA%\BlueprintLib` から復元されます。
 
