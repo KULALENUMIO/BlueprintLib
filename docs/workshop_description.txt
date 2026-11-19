@@ -5,34 +5,29 @@
 [i]クリエイティブ専用 · ブループリントのファイルは読み取るだけで、変更しません[/i]
 
 [img]https://raw.githubusercontent.com/KULALENUMIO/BlueprintLib/main/docs/images/workshop/banner_first.jpg[/img]
-[b]⚠ Run the Manager first - the in-game library stays empty until you do[/b]
-[list]
-[*]Start [b]Blueprint Lib Manager.bat[/b] (in the mod's folder below) and press [b]Rescan[/b]. Until then the tool only shows "No blueprint list yet".
-[*]Do it again whenever you save new blueprints or add / remove mods: [b]Rescan[/b] in the manager, then [b]Reload[/b] in the in-game menu.
-[*]Organizing and placing in game work without the manager running. Drag & drop and "Place in game" need it open.
-[/list]
-
-[b]⚠ 最初にマネージャーを起動してください（起動するまで、ゲーム内の一覧は空のままです）[/b]
-[list]
-[*]下の MOD フォルダにある [b]Blueprint Lib Manager.bat[/b] を起動して、[b]「再スキャン」[/b]を押してください。それまでは、ツールを使っても「ブループリント一覧がありません」と表示されるだけです。
-[*]ブループリントを新しく保存したときや、MOD を入れ替えたときも、マネージャーで[b]「再スキャン」[/b]→ ゲーム内メニューで[b]「再読込」[/b]を押してください。
-[*]ゲーム内での整理と設置は、マネージャーを閉じていてもできます。ドラッグ＆ドロップや「ゲームで設置」は、マネージャーを開いている間だけ使えます。
-[/list]
+[b]⚠ Run the Manager first - the in-game library stays empty until you do.[/b]
+[b]⚠ 最初にマネージャーを起動してください。起動するまで、ゲーム内の一覧は空のままです。[/b]
 
 [b]The mod's folder / MOD のフォルダ[/b]
 [code]<Steam library>\steamapps\workshop\content\387990\3840235435\[/code]
 
 [b]English[/b]
 [list]
+[*]Open the folder above, start [b]Blueprint Lib Manager.bat[/b] and press [b]Rescan[/b]. Until then the tool only shows "No blueprint list yet".
 [*]Needs [b]Python 3.10 or newer[/b] (python.org - tick "Add python.exe to PATH").
 [*]Can't find the folder? In Steam, right-click Scrap Mechanic → Manage → Browse local files, then go up two folders to [b]steamapps[/b].
+[*]Saved new blueprints or added / removed mods? [b]Rescan[/b] in the manager, then [b]Reload[/b] in the in-game menu.
+[*]Organizing and placing in game work without the manager running. Drag & drop and "Place in game" need it open.
 [*]Why a separate manager? Lua mods can't list folders, so the blueprint list has to be made outside the game.
 [/list]
 
 [b]日本語[/b]
 [list]
+[*]上のフォルダにある [b]Blueprint Lib Manager.bat[/b] を起動して、[b]「再スキャン」[/b]を押してください。それまでは、ツールを使っても「ブループリント一覧がありません」と表示されるだけです。
 [*][b]Python 3.10 以上[/b]が必要です（python.org から。インストール時に「Add python.exe to PATH」にチェック）。
 [*]フォルダが見つからないときは、Steam で Scrap Mechanic を右クリック →「管理」→「ローカルファイルを閲覧」で開いて、2つ上の [b]steamapps[/b] へ進みます。
+[*]ブループリントを新しく保存したときや、MOD を入れ替えたときは、マネージャーで[b]「再スキャン」[/b]→ ゲーム内メニューで[b]「再読込」[/b]を押してください。
+[*]ゲーム内での整理と設置は、マネージャーを閉じていてもできます。ドラッグ＆ドロップや「ゲームで設置」は、マネージャーを開いている間だけ使えます。
 [*]ゲーム内の Lua からはフォルダの中身を一覧できないため、一覧の作成だけはマネージャーで行います。
 [/list]
 
